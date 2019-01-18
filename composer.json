@@ -1,0 +1,24 @@
+{
+  "name": "vcn/symfony-autofactory-bundle",
+  "description": "Bundle for vcn/symfony-autofactory",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gerrit Drost",
+      "email": "gdrost@vcn.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vcn\\Symfony\\AutoFactory\\Bundle\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "doctrine/annotations": "^1.6",
+    "symfony/dependency-injection": "^4.2",
+    "symfony/http-kernel": "^4.2",
+    "vcn/symfony-autofactory": "^0.1.0"
+  }
+}
