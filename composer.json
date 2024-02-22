@@ -17,8 +17,8 @@
   "require": {
     "php": ">=7.1",
     "doctrine/annotations": "^1.6",
-    "symfony/dependency-injection": "^5.1",
-    "symfony/http-kernel": "^5.1",
-    "vcn/symfony-autofactory": "^0.2.0"
+    "symfony/dependency-injection": "^5.1 || ^6.4",
+    "symfony/http-kernel": "^5.1 || ^6.4",
+    "vcn/symfony-autofactory": "^0.3.0"
   }
 }
